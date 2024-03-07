@@ -1,10 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
 
+import { Hero, Navbar } from "./components";
+
 function App() {
   return (
     <>
       <BrowserRouter>
-        <p>Hello World</p>
+        <Hero/>
+        <Navbar/>
       </BrowserRouter>
     </>
   );
