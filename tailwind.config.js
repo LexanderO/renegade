@@ -8,6 +8,7 @@ export default {
       blackbean: "#390B10",
       burgundy: "#70131C",
       madder: "#A61B29",
+      grey: "#212326",
     },
     fontFamily: {
       yellowtail: ["Yellowtail", "cursive"],
