@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import { RedGirl } from "../assets";
+
 const Hero = () => {
   const [showWelcome, setShowWelcome] = useState(false);
 
@@ -16,12 +18,12 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div
         className={`flex flex-col justify-center items-center h-screen transform transition-opacity duration-500 
-      ${
-        showWelcome ? "opacity-100" : "opacity-0"
-      }`}
+      ${showWelcome ? "opacity-100" : "opacity-0"}`}
       >
-        <h1 className="font-yellowtail text-9xl text-platinum -rotate-12 mb-4">Welcome</h1>
-        <h3 className="font-montserrat">Scroll to Enter</h3>
+        <h1 className="font-yellowtail text-9xl text-platinum -rotate-12">
+          Welcome
+        </h1>
+        <img src={RedGirl} alt="Red Girl" className="object-scale-down h-1/2 w-1/2" />
       </div>
     </section>
   );
