@@ -1,10 +1,6 @@
-const Navbar = () => {
-  const links = [
-    { id: 1, text: "home" },
-    { id: 2, text: "about" },
-    { id: 3, text: "gallery" },
-  ];
+import { navLinks } from "../constants";
 
+const Navbar = () => {
   return (
     <div className="sticky top-10 flex flex-row-reverse">
       <div
@@ -15,14 +11,14 @@ const Navbar = () => {
        "
       >
         <ul className=" flex flex-row divide-x-4 divide-black sm:mr-24 md:mr-52">
-          {links.map((link) => (
-            <li key={link.id} className="">
+          {navLinks.map((navLink) => (
+            <li key={navLink.id} className="">
               <a
-                href={"#" + link.text}
+                href={"#" + navLink.id}
                 className="text-platinum p-4 block uppercase hover:text-grey 
                  cursor-pointer duration-300 font-montserrat font-bold"
               >
-                {link.text}
+                {navLink.text}
               </a>
             </li>
           ))}
