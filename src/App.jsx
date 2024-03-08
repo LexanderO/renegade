@@ -5,8 +5,10 @@ import { Hero, Navbar, About } from "./components";
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-blackbean">
+      <div className="z-0 bg-blackbean">
         <Hero />
+      </div>
+      <div className="bg-grey">
         <About />
       </div>
     </BrowserRouter>
