@@ -13,7 +13,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section>
+    <section 
+    id="home">
       <div
         className={`flex flex-col justify-center items-center 
         h-screen transform transition-opacity duration-500 mb-11

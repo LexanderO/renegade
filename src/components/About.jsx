@@ -9,13 +9,17 @@ const About = () => {
 
   return (
     <section
+      id="about"
       ref={ref}
       className={`transition-opacity ease-in duration-700 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex flex-wrap justify-center skew-y-3 bg-burgundy border-black border-b-8 pt-11">
-        <div className="-skew-y-6 w-[40%] bg-madder">
+      <div
+        className="flex flex-wrap justify-center skew-y-3
+       bg-burgundy border-black border-b-8 pt-11"
+      >
+        <div className="-skew-y-6 w-1/2 bg-madder">
           <p className="font-montserrat text-2 text-platinum"></p>
         </div>
         <img
