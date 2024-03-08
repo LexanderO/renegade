@@ -37,8 +37,37 @@ const Hero = () => {
           mt-5 font-yellowtail text-platinum transform transition-opacity duration-500
         ${showContent ? "opacity-100" : "opacity-0"}`}
         >
-          to Renegade Template
+          to{" "}
+          <span className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl text-3xl font-bold text-madder font-yellowtail">
+            Renegade
+          </span>{" "}
+          Template
         </h3>
+        <div className="mt-24">
+          <p
+            className="text-center
+          2xl:text-base xl:text-base lg:text-base md:text-base sm:text-base text-base text-platinum font-montserrat"
+          >
+            Built with{" "}
+            <span className="font-bold">Vite, React, Tailwind CSS</span>
+            <br className="sm:block hidden" />
+            and <span className="text-madder font-bold">Love ❤️</span>
+          </p>
+          <p
+            className="font-yellowtail
+          text-center mt-11 2xl:text-xl xl:text-base lg:text-base md:text-base sm:text-base text-base"
+          >
+            by
+            <br className="sm:block hidden" />
+            <a
+              href="https://github.com/LexanderO"
+              target="_blank"
+              className="hover:text-madder font-yellowtail"
+            >
+              LexaderO
+            </a>
+          </p>
+        </div>
       </div>
       <div
         className={`animate-bounce absolute bottom-10 w-full flex justify-center
