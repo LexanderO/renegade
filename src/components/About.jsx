@@ -5,16 +5,32 @@ import { navLinks, aboutDescriptions } from "../constants";
 import { RedGirl } from "../assets";
 
 const TileCard = ({ index, title, description, steps }) => (
-  <div className="border-platinum border-r-8 bg-burgundy my-5">
-    <h3 className="text-xl text-right p-5 font-bold text-platinum">{title}</h3>
-    <p className="text-lg pb-4 text-black font-bold px-10">{description}</p>
-    <ol className="list-disc px-10">
-      {steps.map((step, index) => (
-        <li key={index} className="text-lg text-plantinum p-1">
-          {step}
-        </li>
-      ))}{" "}
-    </ol>
+  <div className="border-madder border-r-8 border-t-8  my-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 ">
+    <h3
+      className="text-right font-yellowtail 
+    2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl p-2 text-platium"
+    >
+      {title}
+    </h3>
+    <div className="flex flex-wrap text-pretty justify-between items-center gap-1 px-10">
+      <p
+        className="first-letter:text-xl first-line:tracking-widest lg:w-2/5 md:w-full sm:w-full font-bold 
+      2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xs text-madder mb-2"
+      >
+        {description}
+      </p>
+      <ol className="list-disc mb-5 ">
+        {steps.map((step, index) => (
+          <li
+            key={index}
+            className="
+            2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xs text-platinum px-2"
+          >
+            {step}
+          </li>
+        ))}{" "}
+      </ol>
+    </div>
   </div>
 );
 
@@ -23,38 +39,45 @@ const About = () => {
   const isVisible = useScrollVisibility(ref);
 
   return (
-    <section
-      id={navLinks[0].id}
-      ref={ref}
-      className={`transition-opacity ease-in duration-700 mt-24 ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
-    >
+    <section id={navLinks[0].id} ref={ref} className="flex items-center">
+      <div className="absolute bg-platinum w-full h-24 skew-y-12" />
+      <div className="absolute bg-platinum w-full h-24 self-end -skew-y-12" />
       <div
-        className="flex flex-wrap justify-center skew-y-3
-       bg-burgundy bg-opacity-95 border-black border-b-8 pt-11"
+        className={`transition-opacity ease-in duration-700 ${
+          isVisible ? "opacity-100" : "opacity-0"
+        }`}
       >
-        <div className="-skew-y-6 2xl:w-2/4 xl:w-3/4 md:w-3/4 sm:3/4 bg-madder px-11">
-          <div className="skew-y-3 flex flex-col -mr-16">
-            <h2 className="text-4xl -skew-x-3 text-right  bg-platinum p-5 font-bold text-grey font-yellowtail">
-              {navLinks[0].text}
-            </h2>
-            {aboutDescriptions.map((aboutDescription, index) => (
-              <TileCard
-                key={aboutDescription.title}
-                index={index}
-                description={aboutDescription.description}
-                steps={aboutDescription.steps}
-                {...aboutDescription}
-              />
-            ))}
+        <div
+          className=" skew-y-3
+       bg-burgundy bg-opacity-95 border-black border-b-8 pt-11"
+        >
+          <h2
+            className="2xl:text-9xl xl:text-8xl lg:text-7xl md:text-7xl sm:text-7xl text-6xl font-bold
+          font-yellowtail text-platinum -skew-y-3 w-full text-center p-5 mb-11"
+          >
+            {navLinks[0].text}
+          </h2>
+          <div className="flex flex-wrap justify-center">
+            <div className="-skew-y-6 2xl:w-2/4 xl:w-3/4 md:w-3/4 sm:3/4 bg-gradient-to-r from-grey px-11 mb-24">
+              <div className="skew-y-3 flex flex-col md:-mr-16">
+                {aboutDescriptions.map((aboutDescription, index) => (
+                  <TileCard
+                    key={aboutDescription.title}
+                    index={index}
+                    description={aboutDescription.description}
+                    steps={aboutDescription.steps}
+                    {...aboutDescription}
+                  />
+                ))}
+              </div>
+            </div>
+            <img
+              src={RedGirl}
+              alt="Red Girl"
+              className="object-scale-down 2xl:w-1/4 xl:w-1/4 md:w-3/4 sm:3/4 self-end"
+            />
           </div>
         </div>
-        <img
-          src={RedGirl}
-          alt="Red Girl"
-          className="object-scale-down 2xl:w-1/4 xl:w-1/4 md:w-3/4 sm:3/4 mt-5 self-end"
-        />
       </div>
     </section>
   );
