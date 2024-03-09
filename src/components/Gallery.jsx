@@ -8,7 +8,7 @@ const Gallery = () => {
   const isVisible = useScrollVisibility(ref);
 
   return (
-    <section id={navLinks[0].id} ref={ref} className="flex items-center">
+    <section id={navLinks[1].id} ref={ref} className="flex items-center">
       <div className="absolute bg-platinum w-full h-24 skew-y-12" />
       <div className="absolute bg-platinum w-full h-24 self-end -skew-y-12" />
       <div
