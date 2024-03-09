@@ -1,4 +1,4 @@
-# Renegade Template
+## Renegade Template
 
 A custom responsive web design site template for reuse.
 
