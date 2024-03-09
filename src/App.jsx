@@ -5,7 +5,7 @@ import { Hero, Navbar, About } from "./components";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-blackbean">
+      <div className="bg-blackbean mb-14">
         <Hero />
       </div>
       <div className="bg-grey">

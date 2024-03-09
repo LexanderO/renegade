@@ -2,7 +2,7 @@ import { navLinks } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-10 flex flex-row-reverse">
+    <div className="sticky top-10 z-50 flex flex-row-reverse">
       <div
         className="flex flex-row justify-end items w-full
        bg-madder bg-opacity-75

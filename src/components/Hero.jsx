@@ -50,7 +50,7 @@ const Hero = () => {
           >
             Built with{" "}
             <span className="font-bold">Vite, React, Tailwind CSS</span>
-            <br className="sm:block hidden" />
+            <br />
             and <span className="text-madder font-bold">Love ❤️</span>
           </p>
           <p
@@ -58,7 +58,7 @@ const Hero = () => {
           text-center mt-11 2xl:text-xl xl:text-base lg:text-base md:text-base sm:text-base text-base"
           >
             by
-            <br className="sm:block hidden" />
+            <br />
             <a
               href="https://github.com/LexanderO"
               target="_blank"
@@ -88,7 +88,6 @@ const Hero = () => {
         </a>
       </div>
       <div className="absolute bg-platinum w-full h-24 -skew-y-12" />
-      <div></div>
     </section>
   );
 };
