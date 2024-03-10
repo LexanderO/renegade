@@ -12,7 +12,7 @@ function App() {
         <About />
       </div>
       <Navbar />
-      <div className="mb-14">
+      <div className="bg-gradient-to-b from-grey to-burgundy">
         <Gallery />
       </div>
     </BrowserRouter>
