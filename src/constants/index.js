@@ -48,30 +48,30 @@ export const imageCards = [
     author: "DarkMasterAI",
     title: "Fantasy Landscape",
     imageURL:
-      "https://images3.alphacoders.com/133/1332803.png",
+      "https://images3.alphacoders.com/133/thumb-440-1332803.webp",
   },
   {
-    author: "AlphaSystem",
-    title: "Suspended Ascension",
+    author: "patrika",
+    title: "Ascension",
     imageURL:
-      "https://images.alphacoders.com/113/11391.jpg",
+      "https://images7.alphacoders.com/133/thumb-440-1330715.webp",
   },
   {
-    author: "DarkMasterAI",
-    title: "Artistic Waterfall",
+    author: "patrika",
+    title: "Natural Bridge",
     imageURL:
-      "https://images.alphacoders.com/133/1336951.png",
+      "https://images3.alphacoders.com/133/thumb-440-1330825.webp",
   },
   {
-    author: "Hellica",
-    title: "Suspended Landscape",
+    author: "Laxmonaut",
+    title: "Mystic Ruins Cave",
     imageURL:
-      "https://images3.alphacoders.com/831/83169.jpg",
+      "https://images3.alphacoders.com/134/thumb-440-1341426.webp",
   },
   {
-    author: "Abandoned",
-    title: "Waterfall",
+    author: "GugeruMapsue",
+    title: "Shallow Waters",
     imageURL:
-      "https://images8.alphacoders.com/357/357444.jpg",
+      "https://images3.alphacoders.com/132/thumb-440-1320818.webp",
   },
 ];
