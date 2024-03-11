@@ -8,6 +8,10 @@ export const navLinks = [
     text: "Gallery",
   },
   {
+    id: "login",
+    text: "Login",
+  },
+  {
     id: "contact",
     text: "Contact",
   },

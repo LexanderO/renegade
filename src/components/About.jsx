@@ -8,7 +8,7 @@ const TileCard = ({ index, title, description, steps }) => (
   <div className="border-madder border-r-8 border-t-8  my-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 ">
     <h3
       className="text-right font-yellowtail 
-    2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl p-2 text-platium"
+    2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl p-2 text-platinum"
     >
       {title}
     </h3>
@@ -43,7 +43,7 @@ const About = () => {
       <div className="absolute bg-platinum w-full h-24 skew-y-12" />
       <div className="absolute bg-platinum w-full h-24 self-end -skew-y-12" />
       <div
-        className={`transition-opacity ease-in duration-700 ${
+        className={`transition-opacity ease-in duration-900 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
