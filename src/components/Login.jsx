@@ -40,7 +40,7 @@ const Login = () => {
               >
                 {navLinks[2].text}
               </h2>
-              <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 lg:w-2/4 md:w-3/4 w-full self-center">
+              <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 lg:w-3/5 md:w-3/4 w-full self-center">
                 <div className="skew-y-3 my-1">
                   <div className="border-madder border-r-8 border-t-8 my-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 ">
                     <form className="flex flex-col items-center my-5 mx-3">
