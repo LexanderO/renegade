@@ -10,7 +10,7 @@ const Login = () => {
   return (
     <section id={navLinks[2].id} ref={ref} className="">
       <div
-        className={`transition-opacity ease-in duration-900 z-10 ${
+        className={`transition-opacity ease-in duration-300 z-10 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -59,7 +59,7 @@ const Login = () => {
                         autocomplete="email"
                         placeholder="Your address@email.com"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
-                        md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
+                        md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
                       />
                       <label
                         htmlFor="password"

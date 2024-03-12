@@ -43,7 +43,7 @@ const About = () => {
       <div className="absolute bg-platinum w-full h-24 skew-y-12" />
       <div className="absolute bg-platinum w-full h-24 self-end -skew-y-12" />
       <div
-        className={`transition-opacity ease-in duration-900 ${
+        className={`transition-opacity ease-in duration-1000 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
