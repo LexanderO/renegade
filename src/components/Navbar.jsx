@@ -29,7 +29,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        {/* Mobile Navigation Items */}
         <div onClick={handleMenu} className="md:hidden mr-4 self-center">
           {showMenu ? (
             <span className="text-4xl">X</span>
