@@ -10,13 +10,13 @@ const Login = () => {
   return (
     <section id={navLinks[2].id} ref={ref} className="">
       <div
-        className={`transition-opacity ease-in duration-900 z-10 ${
+        className={`transition-opacity ease-in duration-300 z-10 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         <div className="flex flex-nowrap justify-center h-screen">
           <div className="absolute bg-platinum w-full h-24 self-center skew-y-12 z-0 bg-opacity-40" />
-          <div className="bg-grey/70 z-10 w-full hidden xl:flex xl:w-1/3 flex-col justify-center items-center text-wrap">
+          <div className="bg-grey/70 z-10 w-full hidden xl:flex xl:w-1/2 flex-col justify-center items-center text-wrap">
             <h2
               className="font-yellowtail 
                         2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
@@ -40,7 +40,7 @@ const Login = () => {
               >
                 {navLinks[2].text}
               </h2>
-              <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 lg:w-2/4 md:w-3/4 w-full self-center">
+              <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 lg:w-3/5 md:w-3/4 w-full self-center">
                 <div className="skew-y-3 my-1">
                   <div className="border-madder border-r-8 border-t-8 my-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 ">
                     <form className="flex flex-col items-center my-5 mx-3">
@@ -59,7 +59,7 @@ const Login = () => {
                         autocomplete="email"
                         placeholder="Your address@email.com"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
-                        md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
+                        md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
                       />
                       <label
                         htmlFor="password"

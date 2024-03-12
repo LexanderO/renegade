@@ -76,7 +76,7 @@ const Hero = () => {
       >
         <a href={"#" + navLinks[0].id}>
           <svg
-            className="w-20 h-20 "
+            className="md:w-20 md:h-20 w-16 h-16"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
