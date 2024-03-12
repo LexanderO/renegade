@@ -16,7 +16,7 @@ const Login = () => {
       >
         <div className="flex flex-nowrap justify-center h-screen">
           <div className="absolute bg-platinum w-full h-24 self-center skew-y-12 z-0 bg-opacity-40" />
-          <div className="bg-grey/70 z-10 w-full hidden xl:flex xl:w-1/3 flex-col justify-center items-center text-wrap">
+          <div className="bg-grey/70 z-10 w-full hidden xl:flex xl:w-1/2 flex-col justify-center items-center text-wrap">
             <h2
               className="font-yellowtail 
                         2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
