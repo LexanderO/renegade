@@ -57,8 +57,8 @@ const Gallery = () => {
                 size={
                   (index + Math.floor(Math.random() * (2 - 1 + 1) + 1)) % 2 ===
                   0
-                    ? "lg:h-auto lg:w-full md:h-auto md:w-1/2 sm:h-auto sm:w-1/2"
-                    : "h-56 w-96"
+                    ? "lg:h-auto lg:w-full md:h-auto md:w-1/2 sm:h-auto sm:w-1/2 h-56 w-80"
+                    : "md:h-56 md:w-96 h-56 w-72"
                 }
                 {...imageCard}
               />
