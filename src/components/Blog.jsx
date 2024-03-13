@@ -55,25 +55,23 @@ const Blog = () => {
                         {blogs[0].title}
                       </h3>
 
-                      <p className="2xl:text-sm xl:text-sm lg:text-sm md:text-base sm:text-base text-base text-platinum">
+                      <p className="2xl:text-sm xl:text-sm lg:text-sm md:text-base sm:text-base text-xl font-extrabold text-madder">
                         "{blogs[0].header}"
                       </p>
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
-                  <ul className="list-none mb-5">
-                    {blogs[0].texts.map((text, index) => (
-                      
+                    <ul className="list-none mb-5">
+                      {blogs[0].texts.map((text, index) => (
                         <li
                           key={index}
-                          className="first-letter:text-xl first-line:tracking-widest transition duration-900
-                                    font-extrabold p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/90 hover:text-madder
-                                    2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xs text-madder mb-2 "
+                          className="first-letter:text-xl first-line:tracking-widest text-platinum transition duration-900
+                                    font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/90 hover:text-madder hover:font-bold
+                                    2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-x mb-2 "
                         >
                           {text}
                         </li>
-                      
-                    ))}
+                      ))}
                     </ul>
                     <p
                       className="font-yellowtail self-end mr-5 mb-5
@@ -89,7 +87,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/4 md:w-1/5 sm:1/5 w-full flex flex-col justify-start  items-center bg-grey/70 z-40">
+          <div className="lg:w-1/4 md:w-1/5 sm:1/5 w-full flex flex-col justify-start items-center bg-grey/70 z-40">
             <h2
               className="font-yellowtail 
                         2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
