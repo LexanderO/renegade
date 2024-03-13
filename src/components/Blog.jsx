@@ -37,7 +37,7 @@ const Blog = () => {
                     <div className="xl:w-1/2 w-full text-center">
                       <h3
                         className="font-yellowtail px-3
-                    2xl:text-6xl xl:text-5xl lg:text-5xl md:text-6xl sm:text-6xl text-4xl p-2 mb-5 text-madder"
+                        2xl:text-6xl xl:text-5xl lg:text-5xl md:text-6xl sm:text-6xl text-4xl p-2 mb-5 text-madder"
                       >
                         {blogs[0].title}
                       </h3>
@@ -53,8 +53,8 @@ const Blog = () => {
                         <li
                           key={index}
                           className="first-letter:text-xl first-line:tracking-widest text-platinum transition duration-900
-                                    font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/90 hover:font-bold
-                                    2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xl mx-16 text-pretty mb-2 "
+                          font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/70 
+                          2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xl mx-16 text-pretty mb-2 "
                         >
                           {text}
                         </li>
@@ -68,6 +68,12 @@ const Blog = () => {
                       <a className="font-yellowtail hover:text-madder">
                         {blogs[0].author}
                       </a>
+                      <br />
+                      <center>
+                        <span className="text-madder font-extrabold 2xl:text-lg xl:text-lg lg:text-lg md:text-lg sm:text-xs text-xl">
+                          {blogs[0].date}
+                        </span>
+                      </center>
                     </p>
                   </div>
                 </div>
@@ -77,8 +83,8 @@ const Blog = () => {
           <div className="lg:w-1/4 md:w-1/5 sm:1/5 w-full flex flex-col justify-start items-center bg-grey/70 z-40">
             <h2
               className="font-yellowtail 
-                        2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
-                        p-2 text-platinum mb-11 mt-40"
+              2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
+              p-2 text-platinum mb-11 mt-40"
             >
               Other Blogs
             </h2>

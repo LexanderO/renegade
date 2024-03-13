@@ -83,9 +83,11 @@ export const blogs = [
   {
     author: "robokoboto",
     title: "Lorem ipsum dolor sit amet",
+    date: "11-07-2024",
     header: "Lectus mauris ultrices eros in cursus. Nisi quis eleifend quam adipiscing vitae proin sagittis.",
     texts: [
       "Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Sed nisi lacus sed viverra. Risus ultricies tristique nulla aliquet. Pretium viverra suspendisse potenti nullam ac tortor vitae. Turpis egestas maecenas pharetra convallis posuere. Cursus eget nunc scelerisque viverra. Amet aliquam id diam maecenas ultricies mi eget. Nullam vehicula ipsum a arcu cursus vitae congue. Erat nam at lectus urna. In fermentum posuere urna nec tincidunt praesent semper. Neque ornare aenean euismod elementum nisi quis eleifend. Quisque non tellus orci ac auctor augue mauris augue. Et tortor at risus viverra adipiscing.",
+      "A pellentesque sit amet porttitor eget. Aliquet sagittis id consectetur purus ut. Nec nam aliquam sem et tortor. Blandit libero volutpat sed cras ornare arcu. Ut consequat semper viverra nam libero justo laoreet sit. Erat imperdiet sed euismod nisi porta lorem mollis. Donec enim diam vulputate ut. Vel fringilla est ullamcorper eget nulla facilisi. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Condimentum id venenatis a condimentum vitae sapien. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Ut porttitor leo a diam sollicitudin tempor id eu nisl. In massa tempor nec feugiat nisl.",
       "Non nisi est sit amet facilisis magna. Egestas sed tempus urna et. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Convallis aenean et tortor at risus viverra. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Vulputate dignissim suspendisse in est. Aliquet eget sit amet tellus cras adipiscing. Lobortis elementum nibh tellus molestie nunc non blandit. Lectus mauris ultrices eros in cursus. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Amet cursus sit amet dictum sit. Et netus et malesuada fames ac turpis. Eu consequat ac felis donec et odio pellentesque diam.",
     ],
       imageURL: "https://images.alphacoders.com/135/thumb-440-1350899.webp",
