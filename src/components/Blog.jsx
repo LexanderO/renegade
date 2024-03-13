@@ -3,19 +3,6 @@ import { useRef } from "react";
 import useScrollVisibility from "../hooks/useScrollVisibility.js";
 import { navLinks, blogs } from "../constants";
 
-const BlogParagraph = ({ index, texts }) => (
-  <div>
-    <li
-      key={index}
-      className="first-letter:text-xl first-line:tracking-widest 
-                      font-extrabold  p-3
-                      2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xs text-madder mb-2"
-    >
-      {text}
-    </li>
-  </div>
-);
-
 const Blog = () => {
   const ref = useRef();
   const isVisible = useScrollVisibility(ref);
