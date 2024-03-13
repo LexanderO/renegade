@@ -36,9 +36,9 @@ const Blog = () => {
             >
               {navLinks[3].text}
             </h2>
-            <div className="-skew-y-3 bg-blackbean px-5 w-full">
+            <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 w-full">
               <div className="skew-y-3 my-1">
-                <div className="border-madder border-r-8 border-t-8 my-2 drop-shadow-2xl backdrop-blur-2xl bg-platinum/0">
+                <div className="border-madder border-r-8 border-t-8 my-2 drop-shadow-2xl backdrop-blur-3xl bg-platinum/0">
                   <div className="flex flex-wrap justify-evenly items-center">
                     <img
                       src={blogs[0].imageURL}
@@ -50,12 +50,12 @@ const Blog = () => {
                     <div className="xl:w-1/2 w-full text-center">
                       <h3
                         className="font-yellowtail px-3
-                    2xl:text-6xl xl:text-5xl lg:text-5xl md:text-6xl sm:text-6xl text-4xl p-2 mb-5 text-platinum"
+                    2xl:text-6xl xl:text-5xl lg:text-5xl md:text-6xl sm:text-6xl text-4xl p-2 mb-5 text-madder"
                       >
                         {blogs[0].title}
                       </h3>
 
-                      <p className="2xl:text-sm xl:text-sm lg:text-sm md:text-base sm:text-base text-xl font-extrabold text-madder">
+                      <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-md sm:text-sm text-xl font-bold text-platinum/50">
                         "{blogs[0].header}"
                       </p>
                     </div>
@@ -66,8 +66,8 @@ const Blog = () => {
                         <li
                           key={index}
                           className="first-letter:text-xl first-line:tracking-widest text-platinum transition duration-900
-                                    font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/90 hover:text-madder hover:font-bold
-                                    2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-x mb-2 "
+                                    font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/90 hover:font-bold
+                                    2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xl mx-16 text-pretty mb-2 "
                         >
                           {text}
                         </li>
