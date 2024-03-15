@@ -33,7 +33,7 @@ const Login = () => {
             </p>
           </div>
           <div className="w-full flex justify-center items-center">
-            <div className="flex flex-col w-full mx-3">
+            <div className="flex flex-col w-full mx-3 mb-10">
               <h2
                 className="2xl:text-9xl xl:text-8xl lg:text-7xl md:text-7xl sm:text-7xl text-6xl font-bold
                 font-yellowtail text-platinum -skew-y-3 w-full text-center p-5 mb-11"
