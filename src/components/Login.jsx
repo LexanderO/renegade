@@ -56,7 +56,7 @@ const Login = () => {
                         type="email"
                         id="email"
                         name="email"
-                        autocomplete="email"
+                        autoComplete="email"
                         placeholder="Your address@email.com"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
                         md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
@@ -73,7 +73,7 @@ const Login = () => {
                         type="password"
                         id="password"
                         name="password"
-                        autocomplete="password"
+                        autoComplete="password"
                         placeholder="Your password"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
                         md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"

@@ -39,7 +39,7 @@ const Gallery = () => {
       className="flex justify-center items-center"
     >
       <div
-        className={`transition-opacity ease-in duration-1000 z-10 ${
+        className={`transition-opacity ease-in duration-500 z-10 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >

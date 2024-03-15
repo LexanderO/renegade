@@ -9,10 +9,10 @@ const Hero = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowWelcome(true);
-    }, 1000);
+    }, 500);
     setTimeout(() => {
       setShowContent(true);
-    }, 1500);
+    }, 1000);
     return () => {
       setShowWelcome(false);
       setShowContent(false);
@@ -27,7 +27,7 @@ const Hero = () => {
         <h1
           className={`2xl:text-9xl xl:text-8xl lg:text-7xl md:text-7xl sm:text-7xl text-6xl font-bold
           font-yellowtail text-platinum -rotate-6 
-          transform transition-opacity duration-500 mb-11"
+          transform transition-opacity duration-300 mb-11"
             ${showWelcome ? "opacity-100" : "opacity-0"}`}
         >
           Welcome
