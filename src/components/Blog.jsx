@@ -31,13 +31,13 @@ const Blog = () => {
   const isVisible = useScrollVisibility(ref);
 
   return (
-    <section id={navLinks[3].id} ref={ref} className="">
+    <section id={navLinks[3].id} ref={ref} className="mb-11">
       <div
         className={`transition-opacity ease-in duration-500 z-10 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="flex flex-wrap justify-evenly h-screen">
+        <div className="flex flex-wrap justify-evenly h-auto">
           <div className="absolute bg-platinum w-full h-24 self-center -skew-y-12 z-10 bg-opacity-40" />
           <div className="w-full xl:w-1/2 md:w-full flex flex-col justify-center items-center z-20">
             <h2
@@ -46,7 +46,7 @@ const Blog = () => {
             >
               {navLinks[3].text}
             </h2>
-            <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 w-full">
+            <div className="-skew-y-3 bg-gradient-to-r from-grey px-5 w-full mb-10">
               <div className="skew-y-3 my-1">
                 <div className="border-madder border-r-8 border-t-8 my-2 drop-shadow-2xl backdrop-blur-3xl bg-platinum/0">
                   <div className="flex flex-wrap justify-evenly items-center">
@@ -76,7 +76,7 @@ const Blog = () => {
                           key={index}
                           className="first-letter:text-xl first-line:tracking-widest text-platinum transition duration-500
                           font-semilight p-3 hover:shadow-2xl hover:scale-110 hover:bg-grey/70 
-                          2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xl mx-16 text-pretty mb-2 "
+                          2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-xl md:mx-16 mx:3 text-pretty mb-2 "
                         >
                           {text}
                         </li>
@@ -91,11 +91,9 @@ const Blog = () => {
                         {blogs[0].author}
                       </a>
                       <br />
-                      <center>
-                        <span className="text-madder font-extrabold 2xl:text-lg xl:text-lg lg:text-lg md:text-lg sm:text-xs text-xl">
-                          {blogs[0].date}
-                        </span>
-                      </center>
+                      <span className="text-madder font-extrabold 2xl:text-lg xl:text-lg lg:text-lg md:text-lg sm:text-xs text-xl">
+                        {blogs[0].date}
+                      </span>
                     </p>
                   </div>
                 </div>

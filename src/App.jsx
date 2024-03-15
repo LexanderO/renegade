@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { Hero, Navbar, About, Gallery, Login,  Blog } from "./components";
+import { Hero, Navbar, About, Gallery, Login,  Blog, Register } from "./components";
 
 function App() {
   return (
@@ -20,6 +20,9 @@ function App() {
       </div>
       <div className="bg-gradient-to-b from-burgundy to-grey">
         <Blog />
+      </div>
+      <div className="bg-blackbean">
+        <Register />
       </div>
     </BrowserRouter>
   );
