@@ -92,4 +92,40 @@ export const blogs = [
     ],
       imageURL: "https://images.alphacoders.com/135/thumb-440-1350899.webp",
   },
+  {
+    author: "abedinayan05",
+    title: "Egestas fringilla phasellus",
+    date: "11-07-2024",
+    header: "Id porta nibh venenatis cras sed felis eget.",
+    texts: [
+      "Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Sed nisi lacus sed viverra. Risus ultricies tristique nulla aliquet. Pretium viverra suspendisse potenti nullam ac tortor vitae. Turpis egestas maecenas pharetra convallis posuere. Cursus eget nunc scelerisque viverra. Amet aliquam id diam maecenas ultricies mi eget. Nullam vehicula ipsum a arcu cursus vitae congue. Erat nam at lectus urna. In fermentum posuere urna nec tincidunt praesent semper. Neque ornare aenean euismod elementum nisi quis eleifend. Quisque non tellus orci ac auctor augue mauris augue. Et tortor at risus viverra adipiscing.",
+      "A pellentesque sit amet porttitor eget. Aliquet sagittis id consectetur purus ut. Nec nam aliquam sem et tortor. Blandit libero volutpat sed cras ornare arcu. Ut consequat semper viverra nam libero justo laoreet sit. Erat imperdiet sed euismod nisi porta lorem mollis. Donec enim diam vulputate ut. Vel fringilla est ullamcorper eget nulla facilisi. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Condimentum id venenatis a condimentum vitae sapien. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Ut porttitor leo a diam sollicitudin tempor id eu nisl. In massa tempor nec feugiat nisl.",
+      "Non nisi est sit amet facilisis magna. Egestas sed tempus urna et. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Convallis aenean et tortor at risus viverra. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Vulputate dignissim suspendisse in est. Aliquet eget sit amet tellus cras adipiscing. Lobortis elementum nibh tellus molestie nunc non blandit. Lectus mauris ultrices eros in cursus. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Amet cursus sit amet dictum sit. Et netus et malesuada fames ac turpis. Eu consequat ac felis donec et odio pellentesque diam.",
+    ],
+      imageURL: "https://images8.alphacoders.com/133/thumb-440-1336828.webp",
+  },
+  {
+    author: "abedinayan05",
+    title: "Quisque sagittis purus sit amet",
+    date: "11-07-2024",
+    header: "Diam maecenas ultricies mi eget mauris. Proin libero nunc consequat interdum varius.",
+    texts: [
+      "Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Sed nisi lacus sed viverra. Risus ultricies tristique nulla aliquet. Pretium viverra suspendisse potenti nullam ac tortor vitae. Turpis egestas maecenas pharetra convallis posuere. Cursus eget nunc scelerisque viverra. Amet aliquam id diam maecenas ultricies mi eget. Nullam vehicula ipsum a arcu cursus vitae congue. Erat nam at lectus urna. In fermentum posuere urna nec tincidunt praesent semper. Neque ornare aenean euismod elementum nisi quis eleifend. Quisque non tellus orci ac auctor augue mauris augue. Et tortor at risus viverra adipiscing.",
+      "A pellentesque sit amet porttitor eget. Aliquet sagittis id consectetur purus ut. Nec nam aliquam sem et tortor. Blandit libero volutpat sed cras ornare arcu. Ut consequat semper viverra nam libero justo laoreet sit. Erat imperdiet sed euismod nisi porta lorem mollis. Donec enim diam vulputate ut. Vel fringilla est ullamcorper eget nulla facilisi. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Condimentum id venenatis a condimentum vitae sapien. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Ut porttitor leo a diam sollicitudin tempor id eu nisl. In massa tempor nec feugiat nisl.",
+      "Non nisi est sit amet facilisis magna. Egestas sed tempus urna et. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Convallis aenean et tortor at risus viverra. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Vulputate dignissim suspendisse in est. Aliquet eget sit amet tellus cras adipiscing. Lobortis elementum nibh tellus molestie nunc non blandit. Lectus mauris ultrices eros in cursus. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Amet cursus sit amet dictum sit. Et netus et malesuada fames ac turpis. Eu consequat ac felis donec et odio pellentesque diam.",
+    ],
+      imageURL: "https://images7.alphacoders.com/133/thumb-440-1337390.webp",
+  },
+  {
+    author: "abedinayan05",
+    title: "Sit amet justo donec enim diam vulputate ut pharetra",
+    date: "11-07-2024",
+    header: "Nisi vitae suscipit tellus mauris a. In dictum non consectetur a erat nam at lectus.",
+    texts: [
+      "Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Sed nisi lacus sed viverra. Risus ultricies tristique nulla aliquet. Pretium viverra suspendisse potenti nullam ac tortor vitae. Turpis egestas maecenas pharetra convallis posuere. Cursus eget nunc scelerisque viverra. Amet aliquam id diam maecenas ultricies mi eget. Nullam vehicula ipsum a arcu cursus vitae congue. Erat nam at lectus urna. In fermentum posuere urna nec tincidunt praesent semper. Neque ornare aenean euismod elementum nisi quis eleifend. Quisque non tellus orci ac auctor augue mauris augue. Et tortor at risus viverra adipiscing.",
+      "A pellentesque sit amet porttitor eget. Aliquet sagittis id consectetur purus ut. Nec nam aliquam sem et tortor. Blandit libero volutpat sed cras ornare arcu. Ut consequat semper viverra nam libero justo laoreet sit. Erat imperdiet sed euismod nisi porta lorem mollis. Donec enim diam vulputate ut. Vel fringilla est ullamcorper eget nulla facilisi. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Condimentum id venenatis a condimentum vitae sapien. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Ut porttitor leo a diam sollicitudin tempor id eu nisl. In massa tempor nec feugiat nisl.",
+      "Non nisi est sit amet facilisis magna. Egestas sed tempus urna et. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Convallis aenean et tortor at risus viverra. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Vulputate dignissim suspendisse in est. Aliquet eget sit amet tellus cras adipiscing. Lobortis elementum nibh tellus molestie nunc non blandit. Lectus mauris ultrices eros in cursus. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Amet cursus sit amet dictum sit. Et netus et malesuada fames ac turpis. Eu consequat ac felis donec et odio pellentesque diam.",
+    ],
+      imageURL: "https://images6.alphacoders.com/132/thumb-440-1329060.webp",
+  },
 ];
