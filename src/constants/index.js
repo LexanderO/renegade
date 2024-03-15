@@ -16,6 +16,10 @@ export const navLinks = [
     text: "Blog",
   },
   {
+    id: "register",
+    text: "Register",
+  },
+  {
     id: "contact",
     text: "Contact",
   },

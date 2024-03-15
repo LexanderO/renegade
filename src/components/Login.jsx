@@ -46,7 +46,7 @@ const Login = () => {
                     <form className="flex flex-col items-center my-5 mx-3">
                       <label
                         htmlFor="email"
-                        className="font-yellowtail 
+                        className="font-yellowtail mt-11
                         2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl 
                         p-2 text-platinum"
                       >
@@ -57,7 +57,7 @@ const Login = () => {
                         id="email"
                         name="email"
                         autoComplete="email"
-                        placeholder="Your address@email.com"
+                        placeholder="address@email.com"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
                         md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
                       />
@@ -74,13 +74,13 @@ const Login = () => {
                         id="password"
                         name="password"
                         autoComplete="password"
-                        placeholder="Your password"
+                        placeholder="password"
                         className="2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-md text-md
                         md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/0 border-madder border-r-8 border-t-8 mb-5"
                       />
                       <button
                         type="submit"
-                        className="2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-yellowtail text-platinum
+                        className="mt-24 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-yellowtail text-platinum
                         md:w-3/4 w-full md:h-16 h-auto p-2 drop-shadow-2xl backdrop-blur-xl bg-platinum/10 hover:bg-madder hover:text-blackbean"
                       >
                         Login
@@ -101,7 +101,7 @@ const Login = () => {
                     </div>
                     <center className="mb-6">
                       <a
-                        html="#register"
+                        href="#register"
                         className="self-center md:w-3/4 w-full md:h-16 h-auto p-2 cursor-pointer hover:text-madder"
                       >
                         Register
