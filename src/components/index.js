@@ -5,5 +5,6 @@ import Gallery from "./Gallery";
 import Login from "./Login";
 import Blog from "./Blog";
 import Register from "./Register";
+import Contact from "./Contact";
 
-export { Hero, Navbar, About, Gallery, Login, Blog, Register };
+export { Hero, Navbar, About, Gallery, Login, Blog, Register, Contact };
